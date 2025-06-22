@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Completion Code</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="complete.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Create Top Bar for Help & Instructions -->
+    <div class="top-bar">
+        <div class="title-text">Your Completion Code</div>
+        <div class="tabs">
+            <button class="tab-button" onclick="showAlert('Home')">Home</button>
+            <button class="tab-button" onclick="showAlert('Instructions')">Instructions</button>
+            <button class="tab-button" onclick="showAlert('Contact')">Contact</button>
+        </div>
+    </div>
+
+    <!-- Create Title and Text Container for Instructions -->
+    <div class="title-container">
+        <h1 id="completionCode"><strong>Your Completion Code</strong></h1>
+        <h2 id="completionCodeMessage" style="display: none;">Take note of your completion code to receive compensation.</h2>
+    </div>
+
+    <!-- Create Bottom Bar -->
+    <div class="bottom-bar">
+        <div class="title-text2">University of Dundee</div>
+    </div>
+
+
+
+    <!-- Redirect Button -->
+    <button id="linkButton" style="display: none;" onclick="goToLink()"><strong>Click Here to Finish the Study</strong></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
